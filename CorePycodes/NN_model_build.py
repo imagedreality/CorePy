@@ -22,7 +22,7 @@ from xgboost import plot_importance
 
 # 1) Define root path, 2) load Run_settings file for input variables
 Root_path = os.path.dirname(os.getcwd())
-#Run_settings=json.load(open(os.path.join(Root_path + '/CorePycodes/' + 'Run_settings' + '.json')))
+Run_settings=json.load(open(os.path.join(Root_path + '/CorePycodes/' + 'Run_settings' + '.json')))
 
 #loads the Corebeta .json file that provides information specific to each core
 #Corebeta are .json files for each core name. MOre information about these .json files in CorePy description
